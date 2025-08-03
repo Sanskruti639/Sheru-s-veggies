@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fruit.css">
+</head>
+<body>
+    <div class="cart">
+    <div class="logo">
+  <img src="logo/cart_copy-removebg-preview.png" alt="">
+  </div>
+  <div class="cart-items"></div>
+  <div class="half">
+<div class="cart-wrapper">
+  <div class="cart-total">Total: ₹0</div>
+</div>
+  <div class="button1">
+  <button onclick="checkoutCart()">Checkout</button>
+    </div>
+<div class="button2">
+  <button onclick="clearCart()">Clear All</button>
+  <div class="check"><a href="submit.html">Place order</a></div>
+  </div>
+  </div>
+  </div>
+  
+<div class="Fruits1">
+
+        <div class="apple">
+            <h1>Apple</h1>
+            <img src="fruit/Apple.jpeg" alt="">
+            <div class="apple2">
+                50 rs/kg
+                <select id="Apple-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn1">
+            <button onclick="addToCart('Apple', 50, 'Apple-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+
+        <div class="Banana">
+            <h1>Banana</h1>
+            <img src="fruit/banana.jpeg" alt="">
+            <div class="Banana2">
+                30 rs/Dozen
+                <select id="Banana-quantity">
+                   <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn2">
+            <button onclick="addToCart('Banana', 30, 'Banana-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+F
+<div class="Avacado">
+            <h1>Avacado</h1>
+            <img src="fruit/avacado.jpeg" alt="">
+            <div class="Avacado2">
+                250 rs/KG
+                <select id="Avacado-quantity">
+                   <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn3">
+            <button onclick="addToCart('Avacado', 250, 'Avacado-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<div class="Custard">
+            <h1>Custard Apple</h1>
+            <img src="fruit/custurd apple.jpeg" alt="">
+            <div class="Custard2">
+                50 rs/KG
+                <select id="custurd-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn4">
+            <button onclick="addToCart('custurd-quantity', 50, 'custurd-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+</div>
+
+<div class="fruits2">
+<div class="Dragon">
+            <h1>Dragon Fruit</h1>
+            <img src="fruit/Dragon fruit.jpeg" alt="">
+            <div class="Dragon2">
+                80 rs/KG
+                <select id="Dragon-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn5">
+            <button onclick="addToCart('Dragon', 80, 'Dragon-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<div class="Kiwi">
+            <h1>Kiwi</h1>
+            <img src="fruit/kiwi-removebg-preview.png" alt="">
+            <div class="Kiwi2">
+                50 rs/KG
+                 <select id="kiwi-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn6">
+            <button onclick="addToCart('kiwi', 50, 'kiwi-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<div class="Orange">
+            <h1>Orange</h1>
+            <img src="fruit/orange.jpeg" alt="">
+            <div class="Orange2">
+                40 rs/KG
+                <select id="orange-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn7">
+            <button onclick="addToCart('orange', 40, 'orange-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<div class="Papaya">
+            <h1>Papaya</h1>
+            <img src="fruit/papaya-removebg-preview.png" alt="">
+            <div class="Papaya2">
+                30 rs/KG
+                <select id="papaya-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn8">
+            <button onclick="addToCart('Papaya', 30, 'papaya-quantity')">Add to cart</button>                
+            </div>
+            </div>
+
+        </div>
+</div>
+
+
+<div class="Pineapple">
+            <h1>Pineapple</h1>
+            <img src="fruit/pineapple.jpeg" alt="">
+            <div class="Pineapple2">
+                120 rs/KG
+                <select id="pineapple-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn9">
+            <button onclick="addToCart('Pineapple', 120, 'pineapple-quantity ')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+
+<div class="Pomegranate">
+            <h1>Pomegranate</h1>
+            <img src="fruit/pomu.jpeg" alt="">
+            <div class="Pomegranate2">
+                120 rs/KG
+                <select id="pomu-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn10">
+            <button onclick="addToCart('Pomegranate', 120, 'pomu-quantity ')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+<div class="Strawberry">
+            <h1>Strawberry</h1>
+            <img src="fruit/strawberry.jpeg" alt="">
+            <div class="Strawberry2">
+                50 rs/KG
+                <select id="strawberr-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn11">
+            <button onclick="addToCart('Strawberry', 50, 'strawberr-quantity ')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+
+<div class="Watermelon">
+            <h1>Watermelon</h1>
+            <img src="fruit/watermelon.jpeg" alt="">
+            <div class="Watermelon2">
+                30 rs/KG
+                <select id="watermelon-quantity">
+                    <option value="1 ">1 KG</option>
+                    <option value="2 ">2 KG</option>
+                    <option value="3">3 KG</option>
+                    <option value="4 ">4 KG</option>
+                </select>
+                <div class="btn12">
+            <button onclick="addToCart('Watermelon', 30, 'watermelon-quantity')">Add to cart</button>                
+                </div>
+            </div>
+
+        </div>
+</div>
+</div>
+
+<script src="fruit.js"></script>
+</body>
+</html>

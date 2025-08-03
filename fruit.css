@@ -1,0 +1,674 @@
+
+body{
+    background-color: rgb(248, 243, 243);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading h1{
+    font-size: 60px;
+}
+
+
+h1{
+    font-style: italic;
+    text-align: center;
+}
+
+.cart{
+    height: 400px;
+    width: 500px;
+    background-color:rgb(248, 243, 243);
+    margin-left: 530px;
+}
+.half{
+    background-color:rgb(224, 216, 216);
+    height: 60px;
+    margin-top: -10px;
+}
+
+.logo {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+  background: #f9fff9;
+  border-radius: 8px;
+ height: 20px;
+ width: 30px;
+ display: flex;
+ justify-content: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+    margin-right: 5px;
+}
+
+.logo {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: #f9fff9;
+  border-radius: 8px;
+  max-width: 300px;
+  margin-left: 220px;
+}
+
+.cart-items {
+  margin: 10px 0;
+  max-height:280px;
+  max-width: 500px;
+  overflow-y: auto;
+  background: #4CAF50;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.cart-wrapper {
+  background: lightgray;
+  padding-top: 20px; /* You can also use margin here */
+  text-align: center;
+}
+
+.cart-total {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  width: 90px;
+  cursor: pointer;
+  margin-top: -20px;
+  display: inline-block;
+margin-right: 800px;}
+
+
+
+.button1{
+    margin-left: 20px;
+    margin-left: 150px;
+    margin-top: -28px;
+}
+
+
+.button2{
+    margin-left: 270px;
+    margin-top: -25px;
+}
+
+
+.check {
+  position: relative;
+}
+
+    
+.check a {
+  position: absolute;
+  top: -30px; /* Adjust this */
+  left: 130px;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+.apple{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 35px;
+    margin-top: 50px;
+    
+}
+
+.apple img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.apple2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.apple2{
+    text-align: center;
+}
+
+.apple2 select{
+margin-top: 7px;}
+
+.btn1 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Banana{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-top: -305px;
+    
+}
+
+.Banana img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Banana2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Banana2{
+    text-align: center;
+}
+
+.Banana2 select{
+margin-top: 7px;}
+
+.btn2 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Avacado{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 850px;
+    margin-top: -322px;
+    
+}
+
+.Avacado img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Avacado2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Avacado2{
+    text-align: center;
+}
+
+.Avacado2 select{
+margin-top: 7px;}
+
+.btn3 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Custard{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 1250px;
+    margin-top: -303px;
+    
+}
+
+.Custard img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Custard2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Custard2{
+    text-align: center;
+}
+
+.Custard2 select{
+margin-top: 7px;}
+
+.btn4 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Dragon{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 1250px;
+    margin-top: 150px;
+    
+    
+}
+
+.Dragon img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Dragon2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Dragon2{
+    text-align: center;
+}
+
+.Dragon2 select{
+margin-top: 7px;}
+
+.btn5 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Kiwi{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 850px;
+    margin-top: -300px;
+    
+    
+}
+
+.Kiwi img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Kiwi2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Kiwi2{
+    text-align: center;
+}
+
+.Kiwi2 select{
+margin-top: 7px;}
+
+.btn6 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+
+.Orange{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-top: -300px;
+
+    
+}
+
+.Orange img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Orange2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Orange2{
+    text-align: center;
+}
+
+.Orange2 select{
+margin-top: 7px;}
+
+.btn7 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+
+.Papaya{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 35px;
+     margin-top: -300px;
+
+
+    
+}
+
+.Papaya img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Papaya2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Papaya2{
+    text-align: center;
+}
+
+.Papaya2 select{
+margin-top: 7px;}
+
+.btn8 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Pineapple{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 35px;
+    margin-top: 150px;
+
+
+    
+}
+
+.Pineapple img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Pineapple2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Pineapple2{
+    text-align: center;
+}
+
+.Pineapple2 select{
+margin-top: 7px;}
+
+.btn9 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+.Pomegranate{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-top: -305px;
+
+
+    
+}
+
+.Pomegranate img{
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Pomegranate2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Pomegranate2{
+    text-align: center;
+}
+
+.Pomegranate2 select{
+margin-top: 7px;}
+
+.btn10 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+.Strawberry{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 850px;
+    margin-top: -306px;
+
+
+    
+}
+
+.Strawberry img{
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Strawberry2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Strawberry2{
+    text-align: center;
+}
+
+.Strawberry2 select{
+margin-top: 7px;}
+
+.btn11 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+.Watermelon{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 1250px;
+    margin-top: -306px;
+
+
+    
+}
+
+.Watermelon img{
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Watermelon2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Watermelon2{
+    text-align: center;
+}
+
+.Watermelon2 select{
+margin-top: 7px;}
+
+.btn12 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .Fruits1,
+  .fruits2,
+  .Apple, .Banana, .Avacado, .Custard,
+  .Dragon, .Kiwi, .Orange, .Papaya,
+  .Pineapple, .Pomegranate, .Strawberry, .Watermelon {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .cart {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .cart .logo img {
+    width: 80px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  select {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}

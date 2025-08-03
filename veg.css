@@ -1,0 +1,650 @@
+
+body{
+    background-color: rgb(248, 243, 243);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1{
+    text-align:center ;
+    font-style: italic;
+}
+.cart{
+    height: 400px;
+    width: 500px;
+    background-color:rgb(248, 243, 243);
+    margin-left: 530px;
+}
+.half{
+    background-color:rgb(224, 216, 216);
+    height: 60px;
+    margin-top: -10px;
+}
+
+.logo {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+  background: #f9fff9;
+  border-radius: 8px;
+ height: 20px;
+ width: 30px;
+ display: flex;
+ justify-content: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+    margin-right: 5px;
+}
+
+.logo {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: #f9fff9;
+  border-radius: 8px;
+  max-width: 300px;
+  margin-left: 220px;
+}
+
+.cart-items {
+  margin: 10px 0;
+  max-height:280px;
+  max-width: 500px;
+  overflow-y: auto;
+  background: #4CAF50;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.cart-wrapper {
+  background: lightgray;
+  padding-top: 20px; /* You can also use margin here */
+  text-align: center;
+}
+
+.cart-total {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  width: 90px;
+  cursor: pointer;
+  margin-top: -20px;
+  display: inline-block;
+margin-right: 800px;}
+
+
+
+.button1{
+    margin-left: 20px;
+    margin-left: 150px;
+    margin-top: -28px;
+}
+
+
+.button2{
+    margin-left: 270px;
+    margin-top: -25px;
+}
+
+
+.check {
+  position: relative;
+}
+
+    
+.check a {
+  position: absolute;
+  top: -30px; /* Adjust this */
+  left: 130px;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.Brinjal{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 35px;
+    margin-top: 50px;
+    
+}
+
+.Brinjal img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Brinjal2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Brinjal2{
+    text-align: center;
+}
+
+.Brinjal2 select{
+margin-top: 7px;}
+
+.btn1 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Cabbage{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-top: -305px;
+    
+}
+
+.Cabbage img{
+    height: 130px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: -px;
+}
+
+.Cabbage2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Cabbage2{
+    text-align: center;
+}
+
+.Cabbage2 select{
+margin-top: 7px;}
+
+.btn2 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Capsicum{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 850px;
+    margin-top: -302px;
+    
+}
+
+.Capsicum img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Capsicum2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Capsicum2{
+    text-align: center;
+}
+
+.Capsicum2 select{
+margin-top: 7px;}
+
+.btn3 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Carrot{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 1250px;
+    margin-top: -303px;
+    
+}
+
+.Carrot img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Carrot2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Carrot2{
+    text-align: center;
+}
+
+.Carrot2 select{
+margin-top: 7px;}
+
+.btn4 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Cauliflower{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 1250px;
+    margin-top: 150px;
+    
+    
+}
+
+.Cauliflower img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Cauliflower2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Cauliflower2{
+    text-align: center;
+}
+
+.Cauliflower2 select{
+margin-top: 7px;}
+
+.btn5 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Cucumber{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 850px;
+    margin-top: -300px;
+    
+    
+}
+
+.Cucumber img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Cucumber2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Cucumber2{
+    text-align: center;
+}
+
+.Cucumber2 select{
+margin-top: 7px;}
+
+.btn6 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+
+.Garlic{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-top: -300px;
+
+    
+}
+
+.Garlic img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Garlic2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Garlic2{
+    text-align: center;
+}
+
+.Garlic2 select{
+margin-top: 7px;}
+
+.btn7 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+
+.Ladyfinger{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 35px;
+     margin-top: -300px;
+
+
+    
+}
+
+.Ladyfinger img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Ladyfinger2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Ladyfinger2{
+    text-align: center;
+}
+
+.Ladyfinger2 select{
+margin-top: 7px;}
+
+.btn8 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+.Onion{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 35px;
+    margin-top: 150px;
+
+
+    
+}
+
+.Onion img{
+    height: 130px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Onion2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Onion2{
+    text-align: center;
+}
+
+.Onion2 select{
+margin-top: 7px;}
+
+.btn9 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+.Potato{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-top: -305px;
+
+
+    
+}
+
+.Potato img{
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Potato2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Potato2{
+    text-align: center;
+}
+
+.Potato2 select{
+margin-top: 7px;}
+
+.btn10 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+.Pumkin{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 850px;
+    margin-top: -306px;
+
+
+    
+}
+
+.Pumkin img{
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Pumkin2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Pumkin2{
+    text-align: center;
+}
+
+.Pumkin2 select{
+margin-top: 7px;}
+
+.btn11 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+
+
+.Tomato{
+    border: solid rgb(224, 216, 216);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    margin-left: 1250px;
+    margin-top: -306px;
+
+
+    
+}
+
+.Tomato img{
+    height: 150px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: -px;
+}
+
+.Tomato2{
+    background-color: rgb(224, 216, 216);
+    width: 250px;
+    height: 70px;
+    margin-top: 16px;
+}
+
+.Tomato2{
+    text-align: center;
+}
+
+.Tomato2 select{
+margin-top: 7px;}
+
+.btn12 button{
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+/* For screens smaller than 768px (mobiles) */
+@media (max-width: 768px) {
+  .cart, .Fruits1, .fruits2, .Brinjal, .Cabbage, .Capsicum, .Carrot, 
+  .Cauliflower, .Cucumber, .Garlic, .Ladyfinger, .Onion, .Potato, .Pumkin, .Tomato {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  select, button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
